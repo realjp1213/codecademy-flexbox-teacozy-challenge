@@ -1,0 +1,166 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+nav {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+}
+
+#nav-logo {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+#nav-logo img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+nav a {
+    color: seashell;
+}
+#mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mission-text {
+    background-color: black;
+    width: 100%;
+}
+
+#mission h2 {
+    margin-bottom: 0;
+}
+
+#featured-tea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.featured-tea-header {
+    margin-bottom: 0;
+}
+
+.tea-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1000px;
+}
+
+.tea-boxes {
+    flex-direction: column;
+    width: 300px;
+    display: flex;
+}
+.tea-boxes img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations-header h2 {
+    margin-bottom: 0;
+}
+
+.locations-gallery {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.locations-box {
+  width: 300px;
+  height: 300px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* center horizontally */
+  justify-content: center; /* center as a group vertically */
+  gap: 18px;             /* spacing between lines */
+  text-align: center;
+}
+.locations-box h3,
+.locations-box p {
+  height: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+    height: 200px;    
+}
+
+.contact-info h2 h5 {
+    height: 100%;
+}
+
+.contact-main-header {
+    margin-bottom: 45px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+    padding: 0px;
+}
